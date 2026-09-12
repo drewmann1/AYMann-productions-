@@ -17,14 +17,14 @@
 }
 
 .slide img {
-  width: 100%;
-  height:auto;
-  object-fit: contain;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
   display: block;
   border-radius: 12px;
-}
-
-.prev,
+}.prev,
 .next {
   position: absolute;
   top: 50%;
