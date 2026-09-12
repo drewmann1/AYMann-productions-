@@ -57,3 +57,20 @@
     font-size: 20px;
   }
 }
+/* FINAL PHOTO GALLERY FIX */
+.slideshow-container {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.slide {
+  height: auto !important;
+}
+
+.slide img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
