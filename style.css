@@ -89,3 +89,27 @@
   display: flex;
   align-items: center;
   gap: 12px;
+
+  /* Past Productions */
+.past-productions-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+}
+
+.past-productions-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .past-productions-gallery {
+    grid-template-columns: 1fr;
+  }
+}
