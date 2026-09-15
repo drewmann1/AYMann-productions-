@@ -263,4 +263,39 @@
     font-size: 17px;
   }
 }
+/* ===== FINAL REVIEW FORM OVERRIDE ===== */
 
+#reviews .review-form {
+  display: block !important;
+  width: 100% !important;
+  max-width: 700px !important;
+  margin: 35px 0 45px 0 !important;
+}
+
+#reviews .review-form form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  gap: 22px !important;
+}
+
+#reviews .review-form form label {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  gap: 8px !important;
+}
+
+#reviews .review-form form input,
+#reviews .review-form form textarea {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#reviews .review-form form button {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
