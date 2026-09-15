@@ -284,21 +284,29 @@
     <p>Share your experience with AYMann Productions.</p>
   </div>
 
-  <div class="review-form">
-    <form action="https://formspree.io/f/xbgjnqze" method="POST">
-      <label>
-        Name
-        <input type="text" name="name" required>
-      </label>
+<div class="review-form" style="width:100%; max-width:700px; margin:30px 0 45px 0;">
+  <form action="https://formspree.io/f/xbgjnqze" method="POST"
+        style="display:flex; flex-direction:column; width:100%; gap:20px;">
 
-      <label>
-        Your Review
-        <textarea name="review" rows="6" required></textarea>
-      </label>
+    <label style="display:flex; flex-direction:column; width:100%; gap:8px;">
+      Name
+      <input type="text" name="name" required
+             style="display:block; width:100%; box-sizing:border-box;">
+    </label>
 
-      <button type="submit" class="button gold">Submit Review</button>
-    </form>
-  </div>  
+    <label style="display:flex; flex-direction:column; width:100%; gap:8px;">
+      Your Review
+      <textarea name="review" rows="6" required
+                style="display:block; width:100%; box-sizing:border-box;"></textarea>
+    </label>
+
+    <button type="submit" class="button gold"
+            style="display:block; width:100%; box-sizing:border-box;">
+      Submit Review
+    </button>
+
+  </form>
+</div>  </div>  
 
 <div class="approved-reviews">
   <h3>What Our Audience Is Saying</h3>
